@@ -1,4 +1,7 @@
 # Mask RCNN in PyTorch
+**Unfortunately, we could not fit the model into the GPU we have and there is some ambiguity in the paper as well, so we decided to stop the project and wait until the official code being released.**
+
+
 1. This is a [PyTorch](https://github.com/pytorch/pytorch) implementation of [Mask RCNN](https://arxiv.org/abs/1703.06870) which attempts to reproduce the results in [Mask RCNN](https://arxiv.org/abs/1703.06870).
 2. This project provides an implementation of ROI Align in CUDA C as well as a PyTorch nn.Module for it.
 3. The model architecture is based on the awesome [Faster RCNN with PyTorch](https://github.com/longcw/faster_rcnn_pytorch) repo.
@@ -12,8 +15,8 @@ Spectial thanks to [Fast Mask RCNN](https://github.com/CharlesShang/FastMaskRCNN
 - [x] FastRCNN with ROIAlign using ResNet-50-C4
 - [x] Training code
 - [ ] Test the FastRCNN with ROI Algin (In progress)
-- [ ] MaskRCNN using ResNet-50-C4 (4/12)
-- [ ] FPN backbone (4/14)
+- [ ] MaskRCNN using ResNet-50-C4
+- [ ] FPN backbone
 - [ ] Testing all code
 - [ ] Turing hyper-parameters
 - [ ] Considering removing dependency of numpy and cython
